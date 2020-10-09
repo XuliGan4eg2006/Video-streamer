@@ -1,7 +1,7 @@
 # Video-streamer
 Simple video streamer from Raspberry pi and simple object detection with processing on the server (on your pc)
 # Just stream
-![Image alt](https://github.com/XuliGan4eg2006/Video-streamer/raw/master/image.png)
+![Image alt](https://github.com/XuliGan4eg2006/Video-streamer/blob/main/image.png)
 ## Ru Guide 
 Первое, скачайте репозиторий и откройте папку "just stream". Второе, загрузите на raspberry pi файл `client.py`. 
 На пк первым делом запустите файл `server.py` . Далее на raspberry pi запустите файл `client.py` с параметром `-s <server ip>`. Где `<server ip>` должен быть ip вашего сервера на котором УЖЕ запущен server.py . Пример: `python3 client.py -s 192.168.1.11` Через некоторое время вы увидите окно с картинкой с вашей камеры. 
