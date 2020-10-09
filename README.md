@@ -17,7 +17,7 @@ On your pc, first of all install the dependencies `pip3 install -r requirementsp
 ## Ru Guide
 Скачайте репозиторий. Откройте папку `with detection` и загрузите на raspberry pi папку `raspberry pi` и установите зависимости `pip3 install -r requirementspi.txt`. После этого откройте папку `pc` и установите зависимости `pip3 install -r requirementspc.txt` 
 После этого запустите файл `server.py` с параметрами `--prototxt MobileNetSSD_deploy.prototxt --model MobileNetSSD_deploy.caffemodel --montageW 2 --montageH 2 ` и подождите пока прогрузится .
-На raspberry pi запустите файл `client.py` с параметрами `- s <your server ip>` 
+На raspberry pi запустите файл `client.py` с параметрами `-s <your server ip>` 
 Через некоторое время вы увидите окно с картинкой с вашей камеры и распознованием вас. 
 ## En Guide 
 Download the repository. Open the folder `with detection` and upload the folder` raspberry pi` to the raspberry pi and install the dependencies `pip3 install -r requirementspi.txt`. After that open the `pc` folder and install the dependencies` pip3 install -r requirementspc.txt`
