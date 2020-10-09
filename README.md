@@ -12,6 +12,7 @@ On your pc, run the `server.py` file first. Next on the raspberry pi run the fil
 <br>
 # Stream with object detection
 ![Image alt](https://s3-us-west-2.amazonaws.com/static.pyimagesearch.com/imagezmq-opencv/imagezmq_demo.gif)
+<br>
 Источник: https://www.pyimagesearch.com/2019/04/15/live-video-streaming-over-network-with-opencv-and-imagezmq/
 ## Ru Guide
 Скачайте репозиторий. Откройте папку `with detection` и загрузите на raspberry pi папку `raspberry pi` и установите зависимости `pip3 install -r requirements.txt`. После этого откройте папку `pc` и установите зависимости `pip3 install -r requirements.txt` 
