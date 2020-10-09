@@ -22,5 +22,5 @@ On your pc, run the `server.py` file first. Next on the raspberry pi run the fil
 ## En Guide 
 Download the repository. Open the folder `with detection` and upload the folder` raspberry pi` to the raspberry pi and install the dependencies `pip3 install -r requirementspi.txt`. After that open the `pc` folder and install the dependencies` pip3 install -r requirementspc.txt`
 Then run the file `server.py` with the parameters` --prototxt MobileNetSSD_deploy.prototxt --model MobileNetSSD_deploy.caffemodel --montageW 2 --montageH 2 `and wait while it loads.
-On raspberry pi, run the `client.py` file with the parameters` - s <your server ip> `
+On raspberry pi, run the `client.py` file with the parameters` -s <your server ip> `
 After a while, you will see a window with a picture from your camera and recognition of you.
