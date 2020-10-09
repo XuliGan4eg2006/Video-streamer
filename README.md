@@ -15,7 +15,7 @@ On your pc, run the `server.py` file first. Next on the raspberry pi run the fil
 <br>
 Источник: https://www.pyimagesearch.com/2019/04/15/live-video-streaming-over-network-with-opencv-and-imagezmq/
 ## Ru Guide
-Скачайте репозиторий. Откройте папку `with detection` и загрузите на raspberry pi папку `raspberry pi` и установите зависимости `pip3 install -r requirements.txt`. После этого откройте папку `pc` и установите зависимости `pip3 install -r requirements.txt` 
+Скачайте репозиторий. Откройте папку `with detection` и загрузите на raspberry pi папку `raspberry pi` и установите зависимости `pip3 install -r requirementspi.txt`. После этого откройте папку `pc` и установите зависимости `pip3 install -r requirementspc.txt` 
 После этого запустите файл `server.py` с параметрами `--prototxt MobileNetSSD_deploy.prototxt --model MobileNetSSD_deploy.caffemodel --montageW 2 --montageH 2 ` и подождите пока прогрузится .
 На raspberry pi запустите файл `client.py` с параметрами `- s <your server ip>` 
 Через некоторое время вы увидите окно с картинкой с вашей камеры и распознованием вас. 
