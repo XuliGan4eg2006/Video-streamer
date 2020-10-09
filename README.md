@@ -3,12 +3,12 @@ Simple video streamer from Raspberry pi and simple object detection with process
 # Just stream
 ![Image alt](https://github.com/XuliGan4eg2006/Video-streamer/blob/main/image.png)
 ## Ru Guide 
-Первое, скачайте репозиторий и откройте папку "just stream". Второе, загрузите на raspberry pi файл `client.py`. 
-На пк первым делом запустите файл `server.py` . Далее на raspberry pi запустите файл `client.py` с параметром `-s <server ip>`. Где `<server ip>` должен быть ip вашего сервера на котором УЖЕ запущен server.py . Пример: `python3 client.py -s 192.168.1.11` Через некоторое время вы увидите окно с картинкой с вашей камеры. 
+Первое, скачайте репозиторий и откройте папку "just stream". Второе, загрузите на raspberry pi файл `client.py` и `requirementspi.txt`. 
+На пк первым делом установите зависимости `pip3 install -r requirementspc.txt` и запустите файл `server.py` . Далее на raspberry pi установите зависимости `pip3 install -r requirementspi.txt` и запустите файл `client.py` с параметром `-s <server ip>` . Где `<server ip>` должен быть ip вашего сервера на котором УЖЕ запущен server.py . Пример: `python3 client.py -s 192.168.1.11` Через некоторое время вы увидите окно с картинкой с вашей камеры. 
 <br>
 ## En Guide
-First, download the repository and open the "just stream" folder. Second, upload the `client.py` file to the raspberry pi.
-On your pc, run the `server.py` file first. Next on the raspberry pi run the file `client.py` with the parameter` -s <server ip> `. Where `<server ip>` should be the ip of your server on which server.py is ALREADY running. Example: `python3 client.py -s 192.168.1.11` After a while you will see a window with a picture from your camera.
+First, download the repository and open the "just stream" folder. Second, upload the `client.py` and` requirementspi.txt` files to the raspberry pi.
+On your pc, first of all install the dependencies `pip3 install -r requirementspc.txt` and run the file` server.py`. Next on the raspberry pi install the dependencies `pip3 install -r requirementspi.txt` and run the file` client.py` with the parameter `-s <server ip>`. Where `<server ip>` should be the ip of your server on which server.py is ALREADY running. Example: `python3 client.py -s 192.168.1.11` After a while you will see a window with a picture from your camera.
 <br>
 # Stream with object detection
 ![Image alt](https://s3-us-west-2.amazonaws.com/static.pyimagesearch.com/imagezmq-opencv/imagezmq_demo.gif)
