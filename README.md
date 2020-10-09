@@ -10,7 +10,7 @@ First, download the repository and open the "just stream" folder. Second, upload
 On your pc, run the `server.py` file first. Next on the raspberry pi run the file `client.py` with the parameter` -s <server ip> `. Where `<server ip>` should be the ip of your server on which server.py is ALREADY running. Example: `python3 client.py -s 192.168.1.11` After a while you will see a window with a picture from your camera.
 <br>
 # Stream with object detection
-
+Источник: https://www.pyimagesearch.com/2019/04/15/live-video-streaming-over-network-with-opencv-and-imagezmq/
 ## Ru Guide
 Скачайте репозиторий. Откройте папку `with detection` и загрузите на raspberry pi папку `raspberry pi` и установите зависимости `pip3 install -r requirements.txt`. После этого откройте папку `pc` и установите зависимости `pip3 install -r requirements.txt` 
 После этого запустите файл `server.py` с параметрами `--prototxt MobileNetSSD_deploy.prototxt --model MobileNetSSD_deploy.caffemodel --montageW 2 --montageH 2 ` и подождите пока прогрузится .
